@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../public/Drumkit-DL-logo.png";
+import logo from "../public/TechLine.png";
 
 const Navbar = () => {
   return (

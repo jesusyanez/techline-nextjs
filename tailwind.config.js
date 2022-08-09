@@ -23,7 +23,7 @@ module.exports = {
 
           info: "#4176FF",
 
-          success: "#3D923B",
+          success: "#f0a500",
 
           warning: "#FFFF00",
 
@@ -32,5 +32,5 @@ module.exports = {
       },
     ],
   },
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui"), require("tailwind-scrollbar-hide")],
 };
