@@ -4,10 +4,10 @@ import Link from "next/link";
 const Drumkits = ({ drumkit }) => {
   return (
     <Link href={drumkit.url}>
-      <div class="card w-full bg-base-100 shadow-xl mb-3 cursor-pointer transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-102 hover:bg-accent duration-300">
-        <div class="card-body">
-          <h2 class="card-title text-black">{drumkit.title}</h2>
-          <p class="text-info truncate ...">{drumkit.url}</p>
+      <div className="card w-full bg-base-100 shadow-xl mb-3 cursor-pointer transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-102 hover:bg-accent duration-300">
+        <div className="card-body">
+          <h2 className="card-title text-black">{drumkit.title}</h2>
+          <p className="text-info truncate ...">{drumkit.url}</p>
         </div>
       </div>
     </Link>
