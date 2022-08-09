@@ -2,8 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Roadmap
 
-- [ ] Figure out why it doesn't load article cards on mobile
-- [ ] Lazy load api
+- [X] Figure out why it doesn't load article cards on mobile [added cors to api]
+- [ ] Lazy load api w/ pagination
 
 ## Getting Started
 
