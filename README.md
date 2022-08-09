@@ -2,9 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Plan
 
-- Finish Next.js GUI
-- Create site for drumkit-dl
-- Use it for Electron.js, Next.js, Python installable app
+- Figure out why it doesn't load article cards on mobile
 
 ## Getting Started
 
