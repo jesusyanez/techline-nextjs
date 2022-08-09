@@ -1,8 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Plan
+## Roadmap
 
-- Figure out why it doesn't load article cards on mobile
+- [ ] Figure out why it doesn't load article cards on mobile
+- [ ] Lazy load api
 
 ## Getting Started
 
