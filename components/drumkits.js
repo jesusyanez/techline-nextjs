@@ -6,18 +6,6 @@ const Drumkits = ({ drumkits }) => {
   return (
     <div className="h-full overflow-y-scroll scrollbar-hide rounded-lg mx-10 ">
       <div className="overflow-x-auto w-full">
-        {/* <table className="table table-compact w-full text-black">
-          <thead>
-            <tr>
-              <th>Articles</th>
-            </tr>
-          </thead>
-          <tbody>
-            {drumkits.map((drumkit) => (
-              <Drumkit drumkit={drumkit} />
-            ))}
-          </tbody>
-        </table> */}
         {drumkits.map((drumkit) => (
           <Drumkit drumkit={drumkit} />
         ))}

@@ -4,8 +4,10 @@ import Navbar from "../components/navbar";
 import Drumkits from "../components/drumkits";
 import React from "react";
 import { useEffect, useState } from "react";
-
+//live api
 const ARTICLE_API_URL = "https://techline.vercel.app/api/articles";
+// dev api
+// const ARTICLE_API_URL = "http://localhost:3000/api/articles";
 
 async function fetchArticles(updateCb) {
   const res = await fetch(ARTICLE_API_URL);
