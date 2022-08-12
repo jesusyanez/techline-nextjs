@@ -1,7 +1,8 @@
 ## Roadmap
 
-- [X] Figure out why it doesn't load article cards on mobile [added cors to api]
+- [X] Create a device-responsive React website
 - [ ] Lazy load api w/ pagination
+- [ ] Add thumbnails to each article
 
 ## Getting Started
 
