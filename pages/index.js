@@ -37,8 +37,12 @@ export default function Home() {
         <div className="sticky top-0 blue">
           <Navbar />
         </div>
+        <h1 className="text-2xl md:text-3xl text-center py-3">
+          Breaking Tech News
+        </h1>
         <div className="h-3/4">
           {/* <Content /> */}
+
           <Drumkits drumkits={articleList} />
         </div>
         <Footer />
