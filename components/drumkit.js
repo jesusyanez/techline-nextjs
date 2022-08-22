@@ -13,7 +13,7 @@ const Drumkits = ({ drumkit }) => {
               {drumkit.text}
             </p>
           </div>
-          <img class="h-full py-2 pr-4 ml-8" src={drumkit.image}></img>
+          <img class="h-full py-2 pr-4" src={drumkit.image}></img>
         </div>
 
         {/* <div className="flex px-6 justify-start h-16 pt-3">
