@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Tech Line</title>
+        <title>TECHLINE</title>
         <meta name="description" content="Breaking tech news" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
