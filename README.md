@@ -1,8 +1,9 @@
 ## Roadmap
 
-- [X] Create a device-responsive React website
-- [ ] Lazy load api w/ pagination
-- [ ] Add thumbnails to each article
+- [x] Create a device-responsive React website
+- [ ] Lazy load api calls w/ pagination
+- [x] Add thumbnails to each article
+- [ ] Setup NodeJs PM2 server
 
 ## Getting Started
 
@@ -15,4 +16,3 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-

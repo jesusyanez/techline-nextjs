@@ -38,7 +38,7 @@ export default function Home() {
           <Navbar />
         </div>
         <h1 className="text-2xl md:text-3xl text-center py-3">
-          Breaking Tech News
+          Breaking Tech News!
         </h1>
         <div className="h-3/4">
           {/* <Content /> */}
