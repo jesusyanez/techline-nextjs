@@ -5,9 +5,9 @@ import Drumkits from "../components/drumkits";
 import React from "react";
 import { useEffect, useState } from "react";
 //live api
-const ARTICLE_API_URL = "https://techline.vercel.app/api/articles";
+// const ARTICLE_API_URL = "https://techline.vercel.app/api/articles";
 // dev api
-// const ARTICLE_API_URL = "http://localhost:3000/api/articles";
+const ARTICLE_API_URL = "http://localhost:3000/api/articles";
 
 async function fetchArticles(updateCb) {
   const res = await fetch(ARTICLE_API_URL);
@@ -38,7 +38,7 @@ export default function Home() {
           <Navbar />
         </div>
         <h1 className="text-2xl md:text-3xl text-center py-3">
-          Breaking Tech News!
+          Breaking Tech News
         </h1>
         <div className="h-3/4">
           {/* <Content /> */}
