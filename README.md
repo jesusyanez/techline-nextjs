@@ -1,11 +1,12 @@
 ## Roadmap
 
 - [x] Create a device-responsive React website
-- [ ] Lazy load api calls w/ pagination
+- [ ] Lazy load api calls
 - [x] Add thumbnails to each article
 - [ ] Setup NodeJs PM2 server
   - [ ] Setup node cron to automate article fetching from reddit
   - [ ] Automate pushes to api server
+  
 ## Install
 First, download repository and enter directory:
 
