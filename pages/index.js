@@ -45,7 +45,7 @@ export default function Home() {
 
           <Drumkits drumkits={articleList} />
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </div>
   );
